@@ -1,0 +1,56 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Box */
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+}
+
+/* Input Field */
+input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+/* Button */
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Ordered List */
+ol {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+/* Task Item Styling */
+.task-item {
+    background: #e3f2fd;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.task-item:hover {
+    background: #bbdefb;
+}
